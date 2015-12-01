@@ -18,7 +18,7 @@ setTimeout(function (){
 $('body').children().not('.placeholder') .remove();
 $('body').animate({scrollTop:0}, 1);
 var docHeight = $(document).height();
-var iTime = $('img').last().index()+1;
+var iTime = $('img').size();
 $('body').animate({scrollTop:docHeight}, 5*iTime*1000, 'linear');
 },6000);
 });
