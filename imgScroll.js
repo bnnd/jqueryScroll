@@ -1,7 +1,7 @@
 //demo:http://www.mafengwo.cn/i/3519935.html
 $(function() {
 //添加图片
-var div=$("img[data-src$='.jpeg']");
+var div=$("img[data-src]");
 div.each(function(i,n){
 var obj = $(n).attr("data-src").replace("!730x0.jpg","");
 $("body").append("<img class=\"placeholder\" src=\"\">");
